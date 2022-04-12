@@ -1,10 +1,5 @@
 <script setup lang="ts">
-import { Buffer } from "buffer";
-globalThis.Buffer = Buffer;
-
 import HelloWorld from "./components/HelloWorld.vue";
-
-console.log("process.env\u200b.NODE_ENV:", process.env.NODE_ENV);
 </script>
 
 <template>
